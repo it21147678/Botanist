@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/optionalbackgd</item>
+        <item name="colorPrimaryDark">@color/DarkSlateGray_10</item>
+        <item name="colorAccent">@color/Gainsboro_60</item>
+
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/Gainsboro_60</item>
+
+        <item name="fontFamily">@font/open_sans</item>
+    </style>
+
+</resources>
