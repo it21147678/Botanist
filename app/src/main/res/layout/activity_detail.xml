@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_product_card"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Cover"
+        android:src="@drawable/plant1" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:lines="2"
+        android:text="@string/title_palce_holder_text"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/plantname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="@dimen/cardmargins"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:lines="1"
+        android:text="@string/plantname_place_holder"
+        android:textAlignment="viewStart"
+
+        android:textColor="@color/Gainsboro_60"
+        android:textSize="18sp"
+        tools:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="389dp"
+        android:layout_height="242dp"
+        android:layout_marginLeft="@dimen/cardmargins"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="@dimen/cardmargins"
+        android:gravity="center"
+
+
+        android:paddingLeft="@dimen/cardpadding"
+        android:paddingTop="@dimen/cardpadding"
+        android:paddingRight="@dimen/cardpadding"
+        android:paddingBottom="@dimen/cardpadding"
+        android:text="@string/plantname_place_holder"
+        android:textColor="@color/Black_30"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnforward_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/cardmargins"
+        android:layout_marginRight="@dimen/cardmargins"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/DarkSlateGray_10"
+        android:paddingBottom="4dp"
+        android:text="@string/btnforward"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnback_cardcell"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/cardmargins"
+        android:layout_marginRight="@dimen/cardmargins"
+        android:layout_marginBottom="@dimen/cardmargins"
+        android:backgroundTint="@color/black"
+        android:text="@string/btnback"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

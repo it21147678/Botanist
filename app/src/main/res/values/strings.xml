@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">app-lab002</string>
+
+    <string name="btnSubmit">Submit</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnback">back</string>
+    <string name="btnfd">>></string>
+    <string name="btnforward">ADD TO CART</string>
+
+    <string name="String_getstarted">Get Started </string>
+    <string name="String_shop">shop and Collection</string>
+    <string name="String_search">Search here</string>
+    <string name="title_palce_holder_text">title palce holder text</string>
+    <string name="author_placeholder">Author placeHolder</string>
+    <string name="plantname_place_holder">plantname place holder</string>
+    <string name="addnewproduct">ADD NEW PRODUCTS</string>
+    <string name="shop">Welcome to the Shop</string>
+    <string name="logo">WELCOME</string>
+
+</resources>
