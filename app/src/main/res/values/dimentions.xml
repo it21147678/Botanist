@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizonta_padding">16dp</dimen>
+    <dimen name="text_box">25dp</dimen>
+    <dimen name="summery_padding">15dp</dimen>
+    <dimen name="creditCard_h">58dp</dimen>
+    <dimen name="creditCard_w">340dp</dimen>
+    <dimen name="creditCard_small_h">55dp</dimen>
+    <dimen name="creditCard_small_w">159dp</dimen>
+    <dimen name="creditCard_longBtn_h">60dp</dimen>
+    <dimen name="creditCard_longBtn_w">313dp</dimen>
+    <dimen name="creditCard_payBtn_h">65dp</dimen>
+    <dimen name="creditCard_payBtn_w">150dp</dimen>
+
+</resources>

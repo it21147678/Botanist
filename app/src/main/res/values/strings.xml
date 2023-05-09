@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MAD</string>
+    <string name="pgTitle">Checkout</string>
+    <string name="biAdrs">Billing Address*</string>
+    <string name="fName">First Name</string>
+    <string name="sName">Second Name</string>
+    <string name="st">Street Address</string>
+    <string name="city">Town/City</string>
+    <string name="pCode">Postal code</string>
+    <string name="pn">Phone</string>
+    <string name="payBtn">Pay</string>
+    <string name="eml">E-mail</string>
+    <string name="orNotic"> Order Notes\n\n(mention the shipping address if it is \n not same as Billing address)</string>
+    <string name="orSum">Order Summary</string>
+    <string name="itmTot">Order Total</string>
+    <string name="dilFee">Delivery Fee</string>
+    <string name="totP">Total</string>
+    <string name="nxBtn">Proceed to Pay</string>
+    <string name="previBtn"> Back </string>
+    <string name="chose"> Choose Payment Option .. </string>
+    <string name="rs"> Rs. </string>
+    <string name="btnCard">Pay with Card</string>
+    <string name="btnCash">Cash on Delivery</string>
+    <string name="cardOwNAme">Name on the card</string>
+    <string name="carNum">Card Number</string>
+    <string name="exDate">Expiry Date</string>
+    <string name="cVV">CVV</string>
+    <string name="saveCardBTn">Save Card</string>
+    <string name="updateCardBtn">Update Card</string>
+    <string name="deleteCdBtn">Delete Card</string>
+    <string name="creditCdPayBtn">PAY</string>
+    <string name="successMsg">Successfully placed \n the order..!</string>
+    <string name="imgDescription">Company Logo</string>
+</resources>
