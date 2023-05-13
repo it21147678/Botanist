@@ -1,6 +1,8 @@
 package com.example.app_lab002
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.example.app_lab002.databinding.ActivityDetail1Binding
@@ -25,10 +27,10 @@ class DetailActivity1 : AppCompatActivity() {
             Glide.with(this).load(bundle.getString("Image")).into(binding.detailImage1)
         }
 
-//        val forbutton =findViewById<Button>(R.id.deletedata)
-//        forbutton.setOnClickListener{
-//            val Intent = Intent(this,DeleteActivity::class.java)
-//            startActivity(Intent)
-//        }
+        val forbutton =findViewById<Button>(R.id.deletedata)
+        forbutton.setOnClickListener{
+           val Intent = Intent(this,UploadActivity::class.java)
+            startActivity(Intent)
+        }
     }
 }
