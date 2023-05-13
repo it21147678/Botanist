@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeleteActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:textColor="@color/white"
+        android:paddingBottom="20dp"
+        android:background="@color/DarkSlateGray_10"
+        android:layout_marginStart="5dp"
+        android:paddingTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="               Do you want to Delete this data" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/updateTitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Product Name"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/updateDesc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Product Description"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/updatePrice"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Product Price"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/updatePriority"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Product Priority"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/deletetheButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/DarkSlateGray_10"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Delete"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/DarkSlateGray_10"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Update"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
